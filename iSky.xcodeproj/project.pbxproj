@@ -19,6 +19,7 @@
 		63B8B0A321E628260026FBC3 /* candy.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63B8B09E21E628260026FBC3 /* candy.mlmodel */; };
 		63B8B0A621E6285B0026FBC3 /* UL logo name 1536 x 2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B8B0A421E6285B0026FBC3 /* UL logo name 1536 x 2048.png */; };
 		63B8B0A721E6285B0026FBC3 /* london.udnie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63B8B0A521E6285B0026FBC3 /* london.udnie.jpg */; };
+		63B8B0AB21E62AD00026FBC3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 63B8B0AA21E62ACF0026FBC3 /* .gitignore */; };
 		63CC000D21BEC8110026EE49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CC000C21BEC8110026EE49 /* Main.storyboard */; };
 		81F6F5A5208AB91C0075F7A3 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F6F5A1208AB91C0075F7A3 /* Model.swift */; };
 		81F6F5A6208AB91C0075F7A3 /* ModelExecutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F6F5A2208AB91C0075F7A3 /* ModelExecutor.swift */; };
@@ -41,6 +42,7 @@
 		63B8B09E21E628260026FBC3 /* candy.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = candy.mlmodel; sourceTree = "<group>"; };
 		63B8B0A421E6285B0026FBC3 /* UL logo name 1536 x 2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "UL logo name 1536 x 2048.png"; path = "../../../../Downloads/app/UL logo name 1536 x 2048.png"; sourceTree = "<group>"; };
 		63B8B0A521E6285B0026FBC3 /* london.udnie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = london.udnie.jpg; path = ../../../../Downloads/app/london.udnie.jpg; sourceTree = "<group>"; };
+		63B8B0AA21E62ACF0026FBC3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		63CC000C21BEC8110026EE49 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		80EC7FB51EE7A25400768C9A /* iSky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81F6F5A1208AB91C0075F7A3 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		80EC7FAC1EE7A25400768C9A = {
 			isa = PBXGroup;
 			children = (
+				63B8B0AA21E62ACF0026FBC3 /* .gitignore */,
 				81F6F5B1208AB93D0075F7A3 /* Models */,
 				81F6F5A0208AB91C0075F7A3 /* Source */,
 				81F6F5A9208AB9220075F7A3 /* Resources */,
@@ -203,6 +206,7 @@
 				6341EE0421C5332A00D6FD88 /* Starry Night.jpg in Resources */,
 				6341EE0321C5332A00D6FD88 /* Udnie.jpg in Resources */,
 				63CC000D21BEC8110026EE49 /* Main.storyboard in Resources */,
+				63B8B0AB21E62AD00026FBC3 /* .gitignore in Resources */,
 				63B8B0A721E6285B0026FBC3 /* london.udnie.jpg in Resources */,
 				63B8B0A621E6285B0026FBC3 /* UL logo name 1536 x 2048.png in Resources */,
 				81F6F5AF208AB9220075F7A3 /* LaunchScreen.storyboard in Resources */,
