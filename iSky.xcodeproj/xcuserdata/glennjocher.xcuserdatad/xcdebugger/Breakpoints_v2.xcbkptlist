@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Source/CameraViewController1.swift"
+            timestampString = "566666645.68611"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "switchToNextModel()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in iSky.CameraViewController1.switchToNextModel() -&gt; ()"
+                  moduleName = "iSky"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glennjocher/PycharmProjects/tutorials/examples/CoreML/ONNXLive/Source/CameraViewController1.swift"
+                  timestampString = "566344591.343388"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "61"
+                  endingLineNumber = "61"
+                  offsetFromSymbolStart = "92">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in iSky.CameraViewController1.switchToNextModel() -&gt; ()"
+                  moduleName = "iSky"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/glennjocher/PycharmProjects/tutorials/examples/CoreML/ONNXLive/Source/CameraViewController1.swift"
+                  timestampString = "566344591.345083"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
