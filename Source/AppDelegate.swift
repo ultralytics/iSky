@@ -10,18 +10,18 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-  var window: UIWindow?
+    var window: UIWindow?
 
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    //let window = UIWindow()
-    //window.rootViewController = CameraViewController()
-    //window.makeKeyAndVisible()
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        //let window = UIWindow()
+        //window.rootViewController = CameraViewController()
+        //window.makeKeyAndVisible()
 
-    //self.window = window
-    
-    UIApplication.shared.isIdleTimerDisabled = true  // prevent screen dimming and locking
+        //self.window = window
 
-    return true
-  }
+        UIApplication.shared.isIdleTimerDisabled = true  // prevent screen dimming and locking
+
+        return true
+    }
 }
 

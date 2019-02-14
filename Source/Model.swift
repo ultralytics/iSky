@@ -9,32 +9,31 @@ import Foundation
 import CoreML
 
 enum Model {
-  case StarryNight
-  case Candy
-  case Mosaic
-  case RainPrincess
-  case Udnie
-    
-    
-  var MLModel: MLModel {
-    switch self {
-    case .StarryNight: return starrynight().model
-    case .Candy: return candy().model
-    case .Mosaic: return mosaic().model
-    case .RainPrincess: return rain_princess().model
-    case .Udnie: return udnie().model
-    }
-  }
+    case StarryNight
+    case Candy
+    case Mosaic
+    case RainPrincess
+    case Udnie
 
-  var nextModel: Model {
-    switch self {
-    case .StarryNight: return .Candy
-    case .Candy: return .Mosaic
-    case .Mosaic: return .RainPrincess
-    case .RainPrincess: return .Udnie
-    case .Udnie: return .StarryNight
+    var MLModel: MLModel {
+        switch self {
+        case .StarryNight: return starrynight().model
+        case .Candy: return candy().model
+        case .Mosaic: return mosaic().model
+        case .RainPrincess: return rain_princess().model
+        case .Udnie: return udnie().model
+        }
     }
-  }
+
+    var nextModel: Model {
+        switch self {
+        case .StarryNight: return .Candy
+        case .Candy: return .Mosaic
+        case .Mosaic: return .RainPrincess
+        case .RainPrincess: return .Udnie
+        case .Udnie: return .StarryNight
+        }
+    }
 
     var artist: String {
         switch self {
@@ -45,7 +44,7 @@ enum Model {
         case .Udnie: return "Francis Picabia"
         }
     }
-    
+
     var nameModel: String {
         switch self {
         case .StarryNight: return "Starry Night"
@@ -55,7 +54,4 @@ enum Model {
         case .Udnie: return "Udnie"
         }
     }
-
-
-    
 }

@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SXf-B8-r12">
-    <device id="retina5_9" orientation="portrait">
+    <device id="ipad11_0rounded" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -15,18 +14,18 @@
             <objects>
                 <viewController id="SXf-B8-r12" customClass="CameraViewController1" customModule="iSky" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5mI-Ua-v5Y">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <rect key="frame" x="0.0" y="0.0" width="834" height="1194"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="LeZ-5y-b6K">
-                                <rect key="frame" x="0.0" y="44" width="375" height="685"/>
+                                <rect key="frame" x="0.0" y="24" width="834" height="1105"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z0O-no-jm0" userLabel="Image View3">
-                                <rect key="frame" x="120" y="542" width="128" height="128"/>
+                                <rect key="frame" x="343" y="924" width="128" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                             </imageView>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Zi-cX-tpQ" userLabel="Label0">
-                                <rect key="frame" x="0.0" y="119" width="375" height="79"/>
+                                <rect key="frame" x="0.0" y="119" width="834" height="461"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -34,28 +33,28 @@
                                 <color key="shadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Oc-Z8-oyi">
-                                <rect key="frame" x="0.0" y="517" width="375" height="27"/>
+                                <rect key="frame" x="230" y="899" width="375" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sNF-DP-bDe" userLabel="Label2">
-                                <rect key="frame" x="0.0" y="669" width="375" height="27"/>
+                                <rect key="frame" x="230" y="1051" width="375" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="1" verticalHuggingPriority="1" translatesAutoresizingMaskIntoConstraints="NO" id="yAn-Cx-9zd">
-                                <rect key="frame" x="0.0" y="729" width="375" height="49"/>
+                                <rect key="frame" x="0.0" y="1124" width="834" height="50"/>
                                 <items>
                                     <barButtonItem enabled="NO" width="20" systemItem="fixedSpace" id="xnm-OQ-Rzs">
                                         <connections>
                                             <action selector="cameraButton:" destination="SXf-B8-r12" id="Jqu-yX-Yug"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem enabled="NO" width="30" springLoaded="YES" style="plain" systemItem="play" id="663-F9-Ffj">
+                                    <barButtonItem enabled="NO" springLoaded="YES" style="plain" systemItem="play" id="663-F9-Ffj">
                                         <connections>
                                             <action selector="playButton:" destination="SXf-B8-r12" id="gS4-oJ-v5U"/>
                                         </connections>
@@ -66,9 +65,28 @@
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem springLoaded="YES" systemItem="pause" id="G3K-HL-hr4">
-                                        <inset key="imageInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
                                         <connections>
                                             <action selector="pauseButton:" destination="SXf-B8-r12" id="y8c-eq-UaV"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem enabled="NO" width="20" systemItem="fixedSpace" id="iJo-ww-3x1">
+                                        <connections>
+                                            <action selector="cameraButton:" destination="SXf-B8-r12" id="ap0-2P-hEl"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem springLoaded="YES" systemItem="camera" id="64t-eL-lFe">
+                                        <connections>
+                                            <action selector="shareScreenshotButton:" destination="SXf-B8-r12" id="4Lp-md-Pcu"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem enabled="NO" width="20" systemItem="fixedSpace" id="atw-wS-3rq">
+                                        <connections>
+                                            <action selector="cameraButton:" destination="SXf-B8-r12" id="d5K-Mi-wGg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem springLoaded="YES" systemItem="action" id="dUc-PJ-ca8">
+                                        <connections>
+                                            <action selector="shareImageButton:" destination="SXf-B8-r12" id="MTT-P9-A0c"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem enabled="NO" systemItem="flexibleSpace" id="2A7-xT-kER">
@@ -76,12 +94,8 @@
                                             <action selector="cameraButton:" destination="SXf-B8-r12" id="UGe-Ly-3da"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem width="100" systemItem="action" id="dUc-PJ-ca8">
-                                        <connections>
-                                            <action selector="shareImageButton:" destination="SXf-B8-r12" id="MTT-P9-A0c"/>
-                                        </connections>
-                                    </barButtonItem>
                                 </items>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </toolbar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -91,7 +105,7 @@
                             <constraint firstItem="yAn-Cx-9zd" firstAttribute="bottom" secondItem="5CT-Dm-BQn" secondAttribute="bottom" id="Q0e-nn-lKy"/>
                             <constraint firstItem="LeZ-5y-b6K" firstAttribute="width" secondItem="5CT-Dm-BQn" secondAttribute="width" id="RpM-Fn-7tp"/>
                             <constraint firstItem="LeZ-5y-b6K" firstAttribute="centerX" secondItem="5CT-Dm-BQn" secondAttribute="centerX" id="dRt-jk-IhJ"/>
-                            <constraint firstItem="LeZ-5y-b6K" firstAttribute="bottom" secondItem="yAn-Cx-9zd" secondAttribute="bottom" constant="-49" id="kPJ-SN-YZe"/>
+                            <constraint firstItem="LeZ-5y-b6K" firstAttribute="bottom" secondItem="yAn-Cx-9zd" secondAttribute="bottom" constant="-45" id="kPJ-SN-YZe"/>
                             <constraint firstItem="LeZ-5y-b6K" firstAttribute="top" secondItem="5CT-Dm-BQn" secondAttribute="top" id="ynN-8L-ph3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5CT-Dm-BQn"/>
