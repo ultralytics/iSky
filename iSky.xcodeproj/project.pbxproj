@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		636EFCCC21E630AC00DE43BC /* UL logo name 1536 x 2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCC421E630AC00DE43BC /* UL logo name 1536 x 2048.png */; };
+		6323C456221861E4008AE681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6323C455221861E4008AE681 /* LaunchScreen.storyboard */; };
 		636EFCCD21E630AC00DE43BC /* Rain Princess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCC621E630AC00DE43BC /* Rain Princess.jpg */; };
 		636EFCCE21E630AC00DE43BC /* Mosaic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCC721E630AC00DE43BC /* Mosaic.jpg */; };
 		636EFCCF21E630AC00DE43BC /* Candy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCC821E630AC00DE43BC /* Candy.jpg */; };
 		636EFCD021E630AC00DE43BC /* Udnie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCC921E630AC00DE43BC /* Udnie.jpg */; };
 		636EFCD121E630AC00DE43BC /* Starry Night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCCA21E630AC00DE43BC /* Starry Night.jpg */; };
-		636EFCD221E630AC00DE43BC /* london.udnie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCCB21E630AC00DE43BC /* london.udnie.jpg */; };
+		637F6B6422185D9F009D581F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F6B6322185D9F009D581F /* logo.png */; };
 		63B8B09F21E628260026FBC3 /* udnie.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63B8B09A21E628250026FBC3 /* udnie.mlmodel */; };
 		63B8B0A021E628260026FBC3 /* mosaic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63B8B09B21E628250026FBC3 /* mosaic.mlmodel */; };
 		63B8B0A121E628260026FBC3 /* rain_princess.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63B8B09C21E628250026FBC3 /* rain_princess.mlmodel */; };
@@ -26,17 +26,16 @@
 		81F6F5A7208AB91C0075F7A3 /* CameraViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F6F5A3208AB91C0075F7A3 /* CameraViewController1.swift */; };
 		81F6F5A8208AB91C0075F7A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81F6F5A4208AB91C0075F7A3 /* AppDelegate.swift */; };
 		81F6F5AE208AB9220075F7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81F6F5AA208AB9220075F7A3 /* Assets.xcassets */; };
-		81F6F5AF208AB9220075F7A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81F6F5AB208AB9220075F7A3 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		636EFCC421E630AC00DE43BC /* UL logo name 1536 x 2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "UL logo name 1536 x 2048.png"; sourceTree = "<group>"; };
+		6323C455221861E4008AE681 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636EFCC621E630AC00DE43BC /* Rain Princess.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rain Princess.jpg"; sourceTree = "<group>"; };
 		636EFCC721E630AC00DE43BC /* Mosaic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mosaic.jpg; sourceTree = "<group>"; };
 		636EFCC821E630AC00DE43BC /* Candy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Candy.jpg; sourceTree = "<group>"; };
 		636EFCC921E630AC00DE43BC /* Udnie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Udnie.jpg; sourceTree = "<group>"; };
 		636EFCCA21E630AC00DE43BC /* Starry Night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Starry Night.jpg"; sourceTree = "<group>"; };
-		636EFCCB21E630AC00DE43BC /* london.udnie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = london.udnie.jpg; sourceTree = "<group>"; };
+		637F6B6322185D9F009D581F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../Downloads/app/LaunchScreenImages/logo.png; sourceTree = "<group>"; };
 		63B8B09A21E628250026FBC3 /* udnie.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = udnie.mlmodel; sourceTree = "<group>"; };
 		63B8B09B21E628250026FBC3 /* mosaic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mosaic.mlmodel; sourceTree = "<group>"; };
 		63B8B09C21E628250026FBC3 /* rain_princess.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = rain_princess.mlmodel; sourceTree = "<group>"; };
@@ -50,7 +49,6 @@
 		81F6F5A3208AB91C0075F7A3 /* CameraViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController1.swift; sourceTree = "<group>"; };
 		81F6F5A4208AB91C0075F7A3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F6F5AA208AB9220075F7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		81F6F5AC208AB9220075F7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81F6F5AD208AB9220075F7A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,9 +66,8 @@
 		636EFCC321E630AC00DE43BC /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				636EFCC421E630AC00DE43BC /* UL logo name 1536 x 2048.png */,
 				636EFCC521E630AC00DE43BC /* square */,
-				636EFCCB21E630AC00DE43BC /* london.udnie.jpg */,
+				637F6B6322185D9F009D581F /* logo.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -121,8 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				63CC000C21BEC8110026EE49 /* Main.storyboard */,
+				6323C455221861E4008AE681 /* LaunchScreen.storyboard */,
 				81F6F5AA208AB9220075F7A3 /* Assets.xcassets */,
-				81F6F5AB208AB9220075F7A3 /* LaunchScreen.storyboard */,
 				81F6F5AD208AB9220075F7A3 /* Info.plist */,
 				636EFCC321E630AC00DE43BC /* Images */,
 			);
@@ -202,13 +199,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				63CC000D21BEC8110026EE49 /* Main.storyboard in Resources */,
-				636EFCD221E630AC00DE43BC /* london.udnie.jpg in Resources */,
+				637F6B6422185D9F009D581F /* logo.png in Resources */,
 				636EFCCE21E630AC00DE43BC /* Mosaic.jpg in Resources */,
+				6323C456221861E4008AE681 /* LaunchScreen.storyboard in Resources */,
 				63B8B0AB21E62AD00026FBC3 /* .gitignore in Resources */,
-				81F6F5AF208AB9220075F7A3 /* LaunchScreen.storyboard in Resources */,
 				636EFCD121E630AC00DE43BC /* Starry Night.jpg in Resources */,
 				636EFCD021E630AC00DE43BC /* Udnie.jpg in Resources */,
-				636EFCCC21E630AC00DE43BC /* UL logo name 1536 x 2048.png in Resources */,
 				81F6F5AE208AB9220075F7A3 /* Assets.xcassets in Resources */,
 				636EFCCD21E630AC00DE43BC /* Rain Princess.jpg in Resources */,
 				636EFCCF21E630AC00DE43BC /* Candy.jpg in Resources */,
@@ -235,17 +231,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		81F6F5AB208AB9220075F7A3 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				81F6F5AC208AB9220075F7A3 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		80EC7FC51EE7A25400768C9A /* Debug */ = {
