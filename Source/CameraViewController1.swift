@@ -123,7 +123,7 @@ class CameraViewController1: UIViewController {
         //let bounds = UIScreen.main.bounds
         let bounds = imageView2.bounds
         UIGraphicsBeginImageContextWithOptions(bounds.size, true, 0.0)
-        imageView2.drawHierarchy(in: bounds, afterScreenUpdates: false)
+        imageView2.drawHierarchy(in: bounds, afterScreenUpdates: false)  // self.view.drawHierarchy()
         let img = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         let activityViewController = UIActivityViewController(activityItems: [img!], applicationActivities: nil)
@@ -133,26 +133,16 @@ class CameraViewController1: UIViewController {
         playButton("")
     }
 
-    // share screen
+    // share screenshot
     @IBAction func saveScreenshotButton(_ sender: Any) {
-        let bounds = UIScreen.main.bounds
-        UIGraphicsBeginImageContextWithOptions(bounds.size, true, 0.0)
-        self.view.drawHierarchy(in: bounds, afterScreenUpdates: false)
-        let img = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-
         // let layer = UIApplication.shared.keyWindow!.layer
         // let scale = UIScreen.main.scale
         // UIGraphicsBeginImageContextWithOptions(layer.frame.size, false, scale);
         // layer.render(in: UIGraphicsGetCurrentContext()!)
         // let screenshot = UIGraphicsGetImageFromCurrentImageContext()
         // UIGraphicsEndImageContext()
-
-        UIImageWriteToSavedPhotosAlbum(img!, nil, nil, nil)
-
-        // let activityViewController = UIActivityViewController(activityItems: [img!], applicationActivities: nil)
-        // activityViewController.popoverPresentationController?.sourceView = self.view
-        // self.present(activityViewController, animated: true, completion: nil)
+        let screenshot = UIApplication.shared.screenShot
+        UIImageWriteToSavedPhotosAlbum(screenshot!, nil, nil, nil)
     }
 
     fileprivate func prepareCaptureSession() {

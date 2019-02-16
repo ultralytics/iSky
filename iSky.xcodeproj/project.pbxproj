@@ -49,7 +49,6 @@
 		81F6F5A3208AB91C0075F7A3 /* CameraViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController1.swift; sourceTree = "<group>"; };
 		81F6F5A4208AB91C0075F7A3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81F6F5AA208AB9220075F7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		81F6F5AD208AB9220075F7A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,7 +119,6 @@
 				63CC000C21BEC8110026EE49 /* Main.storyboard */,
 				6323C455221861E4008AE681 /* LaunchScreen.storyboard */,
 				81F6F5AA208AB9220075F7A3 /* Assets.xcassets */,
-				81F6F5AD208AB9220075F7A3 /* Info.plist */,
 				636EFCC321E630AC00DE43BC /* Images */,
 			);
 			path = Resources;

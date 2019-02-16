@@ -1,15 +1,7 @@
-/**
- * Copyright (c) Facebook, Inc. and Microsoft Corporation.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -20,8 +12,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //self.window = window
 
         UIApplication.shared.isIdleTimerDisabled = true  // prevent screen dimming and locking
-
         return true
     }
 }
 
+
+// Screenshot function 1
+extension UIApplication {
+    var screenShot: UIImage? {
+        return keyWindow?.layer.screenShot
+    }
+}
+
+// Screenshot function 2
+extension CALayer {
+    var screenShot: UIImage? {
+        let scale = UIScreen.main.scale
+        UIGraphicsBeginImageContextWithOptions(frame.size, false, scale)
+        if let context = UIGraphicsGetCurrentContext() {
+            render(in: context)
+            let screenshot = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
+            return screenshot
+        }
+        return nil
+    }
+}
