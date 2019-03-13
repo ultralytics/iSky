@@ -16,7 +16,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 }
 
-
 // Screenshot function 1
 extension UIApplication {
     var screenShot: UIImage? {
