@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		6323C456221861E4008AE681 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6323C455221861E4008AE681 /* LaunchScreen.storyboard */; };
+		6343846E229B473200022240 /* logo name 2000 × 2000.png in Resources */ = {isa = PBXBuildFile; fileRef = 6343846D229B473200022240 /* logo name 2000 × 2000.png */; };
 		636EFCCD21E630AC00DE43BC /* Rain Princess.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCC621E630AC00DE43BC /* Rain Princess.jpg */; };
 		636EFCCE21E630AC00DE43BC /* Mosaic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCC721E630AC00DE43BC /* Mosaic.jpg */; };
 		636EFCCF21E630AC00DE43BC /* Candy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCC821E630AC00DE43BC /* Candy.jpg */; };
 		636EFCD021E630AC00DE43BC /* Udnie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCC921E630AC00DE43BC /* Udnie.jpg */; };
 		636EFCD121E630AC00DE43BC /* Starry Night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 636EFCCA21E630AC00DE43BC /* Starry Night.jpg */; };
-		637F6B6422185D9F009D581F /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 637F6B6322185D9F009D581F /* logo.png */; };
 		63B8B09F21E628260026FBC3 /* udnie.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63B8B09A21E628250026FBC3 /* udnie.mlmodel */; };
 		63B8B0A021E628260026FBC3 /* mosaic.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63B8B09B21E628250026FBC3 /* mosaic.mlmodel */; };
 		63B8B0A121E628260026FBC3 /* rain_princess.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 63B8B09C21E628250026FBC3 /* rain_princess.mlmodel */; };
@@ -30,12 +30,13 @@
 
 /* Begin PBXFileReference section */
 		6323C455221861E4008AE681 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6343846D229B473200022240 /* logo name 2000 × 2000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo name 2000 × 2000.png"; path = "../../../../../Downloads/app/logo name 2000 × 2000.png"; sourceTree = "<group>"; };
+		6343846F229B473C00022240 /* logo name 2000 × 2000.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo name 2000 × 2000.png"; sourceTree = "<group>"; };
 		636EFCC621E630AC00DE43BC /* Rain Princess.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Rain Princess.jpg"; sourceTree = "<group>"; };
 		636EFCC721E630AC00DE43BC /* Mosaic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Mosaic.jpg; sourceTree = "<group>"; };
 		636EFCC821E630AC00DE43BC /* Candy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Candy.jpg; sourceTree = "<group>"; };
 		636EFCC921E630AC00DE43BC /* Udnie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Udnie.jpg; sourceTree = "<group>"; };
 		636EFCCA21E630AC00DE43BC /* Starry Night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Starry Night.jpg"; sourceTree = "<group>"; };
-		637F6B6322185D9F009D581F /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = ../../../../Downloads/app/LaunchScreenImages/logo.png; sourceTree = "<group>"; };
 		63B8B09A21E628250026FBC3 /* udnie.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = udnie.mlmodel; sourceTree = "<group>"; };
 		63B8B09B21E628250026FBC3 /* mosaic.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = mosaic.mlmodel; sourceTree = "<group>"; };
 		63B8B09C21E628250026FBC3 /* rain_princess.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = rain_princess.mlmodel; sourceTree = "<group>"; };
@@ -65,8 +66,8 @@
 		636EFCC321E630AC00DE43BC /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				6343846F229B473C00022240 /* logo name 2000 × 2000.png */,
 				636EFCC521E630AC00DE43BC /* square */,
-				637F6B6322185D9F009D581F /* logo.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -74,6 +75,7 @@
 		636EFCC521E630AC00DE43BC /* square */ = {
 			isa = PBXGroup;
 			children = (
+				6343846D229B473200022240 /* logo name 2000 × 2000.png */,
 				636EFCC621E630AC00DE43BC /* Rain Princess.jpg */,
 				636EFCC721E630AC00DE43BC /* Mosaic.jpg */,
 				636EFCC821E630AC00DE43BC /* Candy.jpg */,
@@ -169,7 +171,7 @@
 				TargetAttributes = {
 					80EC7FB41EE7A25400768C9A = {
 						CreatedOnToolsVersion = 9.0;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -197,13 +199,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				63CC000D21BEC8110026EE49 /* Main.storyboard in Resources */,
-				637F6B6422185D9F009D581F /* logo.png in Resources */,
 				636EFCCE21E630AC00DE43BC /* Mosaic.jpg in Resources */,
 				6323C456221861E4008AE681 /* LaunchScreen.storyboard in Resources */,
 				63B8B0AB21E62AD00026FBC3 /* .gitignore in Resources */,
 				636EFCD121E630AC00DE43BC /* Starry Night.jpg in Resources */,
 				636EFCD021E630AC00DE43BC /* Udnie.jpg in Resources */,
 				81F6F5AE208AB9220075F7A3 /* Assets.xcassets in Resources */,
+				6343846E229B473200022240 /* logo name 2000 × 2000.png in Resources */,
 				636EFCCD21E630AC00DE43BC /* Rain Princess.jpg in Resources */,
 				636EFCCF21E630AC00DE43BC /* Candy.jpg in Resources */,
 			);
@@ -353,7 +355,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ultralytics.iPrism;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -369,7 +371,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ultralytics.iPrism;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
