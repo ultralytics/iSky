@@ -68,7 +68,7 @@ Ensure you have the following before you start:
 
 The Ultralytics iSky iOS App is designed to be intuitive:
 
-- **Tap the screen to alternate between 5 different painting styles:** 
+- **Tap the screen to alternate between 5 different painting styles:**
   - Van Gogh's Starry Night
   - Mosaic
   - Leonid Afremov's Rain Princess
