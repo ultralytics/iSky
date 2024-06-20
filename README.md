@@ -5,7 +5,7 @@
 
 [![Ultralytics Actions](https://github.com/ultralytics/iSky/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/iSky/actions/workflows/format.yml) <a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a>
 
-Welcome to the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1234567890) GitHub repository! 📖 This app leverages advanced neural network style-transfer models to transform your world into art. Explore our guide to get started with the Ultralytics iSky iOS App and view the world through the lens of famous paintings.
+Welcome to the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1445737240) GitHub repository! 📖 This app leverages advanced neural network style-transfer models to transform your world into art. Explore our guide to get started with the Ultralytics iSky iOS App and view the world through the lens of famous paintings.
 
 <div align="center">
   <a href="https://apps.apple.com/us/app/isky/id1234567890" target="_blank"><img width="100%" src="https://github.com/ultralytics/iSky/assets/26833433/b13640c0-bf56-4bd4-94f7-1306fddd2b6b" alt="Ultralytics iSky iOS App previews"></a>
@@ -26,7 +26,7 @@ Welcome to the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1
   <a href="https://ultralytics.com/discord"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
   <br>
   <br>
-  <a href="https://apps.apple.com/us/app/isky/id1234567890" style="text-decoration:none;">
+  <a href="https://apps.apple.com/us/app/isky/id1445737240" style="text-decoration:none;">
     <img src="https://raw.githubusercontent.com/ultralytics/assets/master/app/app-store.svg" width="15%" alt="Apple App store"></a>
 </div>
 
