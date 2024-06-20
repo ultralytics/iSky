@@ -25,8 +25,7 @@ Welcome to the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1
   <a href="https://ultralytics.com/discord"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
   <br>
   <br>
-  <a href="https://apps.apple.com/us/app/isky/id1234567890" style="text-decoration:none;">
-    <img src="https://raw.githubusercontent.com/ultralytics/assets/master/app/app-store.svg" width="15%" alt="Apple App store"></a>
+  <a href="https://apps.apple.com/us/app/isky/id1234567890"><img src="https://raw.githubusercontent.com/ultralytics/assets/master/app/app-store.svg" width="15%" alt="Apple App store"></a>
 </div>
 
 ## 🛠 Quickstart: Setting Up the Ultralytics iSky iOS App
