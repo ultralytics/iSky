@@ -3,7 +3,7 @@
 
 # 🚀 Ultralytics iSky iOS App
 
-[![Ultralytics Actions](https://github.com/ultralytics/iSky/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/iSky/actions/workflows/format.yml) <a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a>
+[![Ultralytics Actions](https://github.com/ultralytics/iSky/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/iSky/actions/workflows/format.yml) <a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a>
 
 Welcome to the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1445737240) GitHub repository! 📖 This app leverages advanced neural network style-transfer models to transform your world into art. Explore our guide to get started with the Ultralytics iSky iOS App and view the world through the lens of famous paintings.
 
