@@ -27,7 +27,7 @@ Welcome to the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1
   <br>
   <br>
   <a href="https://apps.apple.com/us/app/isky/id1445737240" style="text-decoration:none;">
-    <img src="https://raw.githubusercontent.com/ultralytics/assets/master/app/app-store.svg" width="15%" alt="Apple App store"></a>
+    <img src="https://raw.githubusercontent.com/ultralytics/assets/main/app/app-store.svg" width="15%" alt="Apple App store"></a>
 </div>
 
 ## 🛠 Quickstart: Setting Up the Ultralytics iSky iOS App
