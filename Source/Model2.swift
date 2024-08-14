@@ -6,22 +6,16 @@
 //  Copyright © 2018 Facebook Inc. All rights reserved.
 //
 
-import Foundation
 import CoreML
+import Foundation
 
 enum Model2 {
-    case StarryNight
-    case Candy
-    case Mosaic
-    case RainPrincess
-    case Udnie
-    
-    var model = starrynight().model
-    
+  case StarryNight
+  case Candy
+  case Mosaic
+  case RainPrincess
+  case Udnie
 
-    
-    
-    
-    
+  var model = starrynight().model
 
 }
