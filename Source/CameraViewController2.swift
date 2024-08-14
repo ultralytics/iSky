@@ -6,36 +6,31 @@
 //  Copyright © 2018 Facebook Inc. All rights reserved.
 //
 
-
-import UIKit
-import MobileCoreServices
-import Vision
-import CoreML
 import AVKit
+import CoreML
+import MobileCoreServices
+import UIKit
+import Vision
 
 class CameraViewController2: UIViewController {
-    @IBOutlet var imageView2: UIImageView!
-    
-    var captureSession: AVCaptureSession?
-    let videoOutputQueue = DispatchQueue(label: "com.facebook.onnx.videoOutputQueue", qos: .userInitiated)
-    
-    var model = Model.StarryNight
-    var modelExecutor: ModelExecutor?
-    
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        //imageView2 = UIImageView()
-        imageView2.addGestureRecognizer(UITapGestureRecognizer(target: self, action: nil))
-        imageView2.image = UIImage(named:"the_city_london.udnie.jpg")
-        // imageView2.contentMode = .scaleAspectFit
-        // self.view = imageView2
-        
-    }
-    
-    
-    
-    
-    
+  @IBOutlet var imageView2: UIImageView!
+
+  var captureSession: AVCaptureSession?
+  let videoOutputQueue = DispatchQueue(
+    label: "com.facebook.onnx.videoOutputQueue", qos: .userInitiated)
+
+  var model = Model.StarryNight
+  var modelExecutor: ModelExecutor?
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+
+    //imageView2 = UIImageView()
+    imageView2.addGestureRecognizer(UITapGestureRecognizer(target: self, action: nil))
+    imageView2.image = UIImage(named: "the_city_london.udnie.jpg")
+    // imageView2.contentMode = .scaleAspectFit
+    // self.view = imageView2
+
+  }
+
 }
