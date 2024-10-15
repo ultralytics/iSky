@@ -1,9 +1,9 @@
 <br>
-<a href="https://ultralytics.com" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com/" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # 🚀 Ultralytics iSky iOS App
 
-[![Ultralytics Actions](https://github.com/ultralytics/iSky/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/iSky/actions/workflows/format.yml) <a href="https://ultralytics.com/discord"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
+[![Ultralytics Actions](https://github.com/ultralytics/iSky/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/iSky/actions/workflows/format.yml) <a href="https://discord.com/invite/ultralytics"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
 
 Welcome to the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1445737240) GitHub repository! 📖 This app leverages advanced neural network style-transfer models to transform your world into art. Explore our guide to get started with the Ultralytics iSky iOS App and view the world through the lens of famous paintings.
 
@@ -23,7 +23,7 @@ Welcome to the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://ultralytics.com/bilibili"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-bilibili.png" width="3%" alt="Ultralytics BiliBili"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://ultralytics.com/discord"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
+  <a href="https://discord.com/invite/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
   <br>
   <br>
   <a href="https://apps.apple.com/us/app/isky/id1445737240" style="text-decoration:none;">
@@ -39,7 +39,7 @@ Getting started with the Ultralytics iSky iOS App is straightforward. Follow the
 Ensure you have the following before you start:
 
 - **Xcode:** The Ultralytics iSky iOS App requires Xcode installed on your macOS machine. Download it from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835).
-- **An iOS Device:** For testing the app, you'll need an iPhone or iPad running [iOS 14.0](https://www.apple.com/ios/ios-17/) or later.
+- **An iOS Device:** For testing the app, you'll need an iPhone or iPad running [iOS 14.0](https://www.apple.com/ios/ios-18/) or later.
 - **An Apple Developer Account:** A free Apple Developer account will suffice for device testing. Sign up [here](https://developer.apple.com/) if you haven't already.
 
 ### Installation
@@ -83,7 +83,7 @@ The Ultralytics iSky iOS App is designed to be intuitive:
 
 ## 💡 Contribute
 
-We warmly welcome your contributions to Ultralytics' open-source projects! Your support and contributions significantly impact. Get involved by reviewing our [Contributing Guide](https://docs.ultralytics.com/help/contributing), and share your feedback through our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A massive thank you 🙏 to everyone who contributes!
+We warmly welcome your contributions to Ultralytics' open-source projects! Your support and contributions significantly impact. Get involved by reviewing our [Contributing Guide](https://docs.ultralytics.com/help/contributing/), and share your feedback through our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A massive thank you 🙏 to everyone who contributes!
 
 <a href="https://github.com/ultralytics/yolov5/graphs/contributors">
 <img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
@@ -114,5 +114,5 @@ Ultralytics offers two licensing options:
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
   <a href="https://ultralytics.com/bilibili"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-bilibili.png" width="3%" alt="Ultralytics BiliBili"></a>
   <img src="https://github.com/ultralytics/assets/raw/main/social/logo-transparent.png" width="3%" alt="space">
-  <a href="https://ultralytics.com/discord"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
+  <a href="https://discord.com/invite/ultralytics"><img src="https://github.com/ultralytics/assets/raw/main/social/logo-social-discord.png" width="3%" alt="Ultralytics Discord"></a>
 </div>
