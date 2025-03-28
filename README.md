@@ -48,6 +48,7 @@ Ensure you have the following before you start:
 
 1.  **Clone the Repository:**
     Use [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to clone the repository to your local machine.
+
     ```sh
     git clone https://github.com/ultralytics/isky.git
     cd isky
@@ -74,11 +75,11 @@ Ensure you have the following before you start:
 The Ultralytics iSky iOS App is designed for intuitive use:
 
 - **Tap the screen to cycle through 5 different painting styles:**
-    - Van Gogh's [Starry Night](https://en.wikipedia.org/wiki/The_Starry_Night)
-    - Mosaic
-    - Leonid Afremov's Rain Princess
-    - Natasha Westcoat's Candie
-    - Francis Picabia's Udnie
+  - Van Gogh's [Starry Night](https://en.wikipedia.org/wiki/The_Starry_Night)
+  - Mosaic
+  - Leonid Afremov's Rain Princess
+  - Natasha Westcoat's Candie
+  - Francis Picabia's Udnie
 - **Pause and Play live video:** Control the live video feed with a simple tap on the pause/play button.
 - **Share your art:** Use the share button to capture the current view and share your transformed world with friends and family!
 
