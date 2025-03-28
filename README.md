@@ -1,11 +1,13 @@
-<br>
-<a href="https://www.ultralytics.com/" target="_blank"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # 🚀 Ultralytics iSky iOS App
 
-[![Ultralytics Actions](https://github.com/ultralytics/iSky/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/iSky/actions/workflows/format.yml) <a href="https://discord.com/invite/ultralytics"><img alt="Discord" src="https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue"></a> <a href="https://community.ultralytics.com/"><img alt="Ultralytics Forums" src="https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue"></a> <a href="https://reddit.com/r/ultralytics"><img alt="Ultralytics Reddit" src="https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue"></a>
+[![Ultralytics Actions](https://github.com/ultralytics/iSky/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/iSky/actions/workflows/format.yml)
+[![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
+[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
+[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
 
-Welcome to the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1445737240) GitHub repository! 📖 This app leverages advanced neural network style-transfer models to transform your world into art. Explore our guide to get started with the Ultralytics iSky iOS App and view the world through the lens of famous paintings.
+Welcome to the [Ultralytics](https://www.ultralytics.com/) iSky iOS App GitHub repository! 📖 This app leverages advanced [neural network](https://www.ultralytics.com/glossary/neural-network-nn) [style-transfer](https://en.wikipedia.org/wiki/Neural_style_transfer) models to transform your world into art in real-time. Explore our guide to get started with the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1445737240) and view the world through the lens of famous paintings.
 
 <div align="center">
   <a href="https://apps.apple.com/us/app/isky/id1445737240" target="_blank"><img width="100%" src="https://github.com/ultralytics/iSky/assets/26833433/b13640c0-bf56-4bd4-94f7-1306fddd2b6b" alt="Ultralytics iSky iOS App previews"></a>
@@ -30,75 +32,73 @@ Welcome to the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1
     <img src="https://raw.githubusercontent.com/ultralytics/assets/main/app/app-store.svg" width="15%" alt="Apple App store"></a>
 </div>
 
-## 🛠 Quickstart: Setting Up the Ultralytics iSky iOS App
+## 🛠️ Quickstart: Setting Up the Ultralytics iSky iOS App
 
-Getting started with the Ultralytics iSky iOS App is straightforward. Follow these steps to install the app on your iOS device.
+Getting started with the Ultralytics iSky iOS App is straightforward. Follow these steps to build and install the app on your iOS device using Xcode.
 
 ### Prerequisites
 
 Ensure you have the following before you start:
 
-- **Xcode:** The Ultralytics iSky iOS App requires Xcode installed on your macOS machine. Download it from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835).
+- **Xcode:** The Ultralytics iSky iOS App requires Xcode installed on your macOS machine. Download the latest version from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835).
 - **An iOS Device:** For testing the app, you'll need an iPhone or iPad running [iOS 14.0](https://www.apple.com/ios/ios-18/) or later.
-- **An Apple Developer Account:** A free Apple Developer account will suffice for device testing. Sign up [here](https://developer.apple.com/) if you haven't already.
+- **An Apple Developer Account:** A free [Apple Developer account](https://developer.apple.com/) is sufficient for testing the app on your own device.
 
 ### Installation
 
-1. **Clone the Repository:**
+1.  **Clone the Repository:**
+    Use [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to clone the repository to your local machine.
 
-   ```sh
-   git clone https://github.com/ultralytics/isky.git
-   ```
+    ```sh
+    git clone https://github.com/ultralytics/isky.git
+    cd isky
+    ```
 
-2. **Open the Project in Xcode:**
+2.  **Open the Project in Xcode:**
+    Navigate to the cloned directory and open the `iSky.xcodeproj` file. This will launch the project in Xcode.
 
-   Navigate to the cloned directory and open the `iSky.xcodeproj` file.
+    <p align="center">
+    <img width="50%" src="https://github.com/ultralytics/ultralytics/assets/26833433/e0053238-4a7c-4d18-8720-6ce24c73dea0" alt="XCode load project screenshot">
+    </p>
 
-   <p align="center">
-   <img width="50%" src="https://github.com/ultralytics/ultralytics/assets/26833433/e0053238-4a7c-4d18-8720-6ce24c73dea0" alt="XCode load project screenshot">
-   </p>
+    In Xcode, navigate to the project's target settings. Under the "Signing & Capabilities" tab, select your Apple Developer account to sign the app.
 
-   In Xcode, go to the project's target settings and choose your Apple Developer account under the "Signing & Capabilities" tab.
+3.  **Run the Ultralytics iSky iOS App:**
+    Connect your iOS device to your Mac via USB. Select your device from the list of run targets in Xcode (next to the stop button). Press the Run button (▶) to build and install the app on your device.
 
-3. **Run the Ultralytics iSky iOS App:**
-
-   Connect your iOS device and select it as the run target. Press the Run button to install the app on your device.
-
-   <p align="center">
-   <img width="100%" src="https://github.com/ultralytics/ultralytics/assets/26833433/d2c6a7b7-fa8b-4130-a57f-4241f7a42ff2" alt="Ultralytics YOLO XCode screenshot">
-   </p>
+    <p align="center">
+    <img width="100%" src="https://github.com/ultralytics/ultralytics/assets/26833433/d2c6a7b7-fa8b-4130-a57f-4241f7a42ff2" alt="Ultralytics YOLO XCode screenshot">
+    </p>
 
 ## 🚀 Usage
 
-The Ultralytics iSky iOS App is designed to be intuitive:
+The Ultralytics iSky iOS App is designed for intuitive use:
 
-- **Tap the screen to alternate between 5 different painting styles:**
-  - Van Gogh's Starry Night
+- **Tap the screen to cycle through 5 different painting styles:**
+  - Van Gogh's [Starry Night](https://en.wikipedia.org/wiki/The_Starry_Night)
   - Mosaic
   - Leonid Afremov's Rain Princess
   - Natasha Westcoat's Candie
   - Francis Picabia's Udnie
-- **Pause and Play live video:** Control the live video feed with a simple tap.
-- **Share your art:** Use the share button to share your transformed world with everyone!
+- **Pause and Play live video:** Control the live video feed with a simple tap on the pause/play button.
+- **Share your art:** Use the share button to capture the current view and share your transformed world with friends and family!
 
 ## 💡 Contribute
 
-We warmly welcome your contributions to Ultralytics' open-source projects! Your support and contributions significantly impact. Get involved by reviewing our [Contributing Guide](https://docs.ultralytics.com/help/contributing/), and share your feedback through our [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). A massive thank you 🙏 to everyone who contributes!
+We warmly welcome contributions from the community to our open-source projects! Your support and efforts are vital for advancing the field of AI. Get involved by reviewing our [Contributing Guide](https://docs.ultralytics.com/help/contributing/), and please share your feedback through our brief [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). We appreciate every contribution, from bug reports to pull requests. A massive thank you 🙏 to all our contributors!
 
-<a href="https://github.com/ultralytics/yolov5/graphs/contributors">
-<img width="100%" src="https://github.com/ultralytics/assets/raw/main/im/image-contributors.png" alt="Ultralytics open-source contributors"></a>
+[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
 
 ## 📄 License
 
-Ultralytics offers two licensing options:
+Ultralytics provides two licensing options to accommodate diverse use cases:
 
-- **AGPL-3.0 License**: An [OSI-approved](https://opensource.org/license) open-source license, perfect for academics, researchers, and enthusiasts. It encourages sharing knowledge and collaboration. See the [LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE) file for details.
-- **Enterprise License**: Designed for commercial use, this license permits integrating Ultralytics software into proprietary products and services. For commercial use, please contact us through [Ultralytics Licensing](https://www.ultralytics.com/license).
+- **AGPL-3.0 License:** This [OSI-approved](https://opensource.org/license/agpl-v3) open-source license is ideal for students, researchers, and enthusiasts who wish to share their work and contribute back to the community. It promotes open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/isky/blob/main/LICENSE) file for detailed terms.
+- **Enterprise License:** Tailored for commercial applications, this license allows for the integration of Ultralytics software and AI models into commercial products and services without the open-source requirements of AGPL-3.0. If your scenario involves commercial use, please contact us through [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 🤝 Contact
 
-- Submit Ultralytics bug reports and feature requests via [GitHub Issues](https://github.com/ultralytics/isky/issues).
-- Join our [Discord](https://discord.com/invite/ultralytics) for assistance, questions, and discussions with the community and team!
+For bug reports and feature requests related to the Ultralytics iSky iOS App, please use [GitHub Issues](https://github.com/ultralytics/isky/issues). For general questions, discussions, and support, join our vibrant community on [Discord](https://discord.com/invite/ultralytics)!
 
 <br>
 <div align="center">
