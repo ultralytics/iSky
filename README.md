@@ -41,7 +41,7 @@ Getting started with the Ultralytics iSky iOS App is straightforward. Follow the
 Ensure you have the following before you start:
 
 - **Xcode:** The Ultralytics iSky iOS App requires Xcode installed on your macOS machine. Download the latest version from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835).
-- **An iOS Device:** For testing the app, you'll need an iPhone or iPad running [iOS 14.0](https://www.apple.com/ios/ios-18/) or later.
+- **An iOS Device:** For testing the app, you'll need an iPhone or iPad running iOS 12.0 or later, matching the app target's deployment setting.
 - **An Apple Developer Account:** A free [Apple Developer account](https://developer.apple.com/) is sufficient for testing the app on your own device.
 
 ### Installation
@@ -50,8 +50,8 @@ Ensure you have the following before you start:
     Use [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) to clone the repository to your local machine.
 
     ```sh
-    git clone https://github.com/ultralytics/isky.git
-    cd isky
+    git clone https://github.com/ultralytics/iSky.git
+    cd iSky
     ```
 
 2.  **Open the Project in Xcode:**
@@ -87,18 +87,18 @@ The Ultralytics iSky iOS App is designed for intuitive use:
 
 We warmly welcome contributions from the community to our open-source projects! Your support and efforts are vital for advancing the field of AI. Get involved by reviewing our [Contributing Guide](https://docs.ultralytics.com/help/contributing/), and please share your feedback through our brief [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). We appreciate every contribution, from bug reports to pull requests. A massive thank you 🙏 to all our contributors!
 
-[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/ultralytics/graphs/contributors)
+[![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/iSky/graphs/contributors)
 
 ## 📄 License
 
 Ultralytics provides two licensing options to accommodate diverse use cases:
 
-- **AGPL-3.0 License:** This [OSI-approved](https://opensource.org/license/agpl-v3) open-source license is ideal for students, researchers, and enthusiasts who wish to share their work and contribute back to the community. It promotes open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/isky/blob/main/LICENSE) file for detailed terms.
+- **AGPL-3.0 License:** This [OSI-approved](https://opensource.org/license/agpl-v3) open-source license is ideal for students, researchers, and enthusiasts who wish to share their work and contribute back to the community. It promotes open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/iSky/blob/main/LICENSE) file for detailed terms.
 - **Enterprise License:** Tailored for commercial applications, this license allows for the integration of Ultralytics software and AI models into commercial products and services without the open-source requirements of AGPL-3.0. If your scenario involves commercial use, please contact us through [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 🤝 Contact
 
-For bug reports and feature requests related to the Ultralytics iSky iOS App, please use [GitHub Issues](https://github.com/ultralytics/isky/issues). For general questions, discussions, and support, join our vibrant community on [Discord](https://discord.com/invite/ultralytics)!
+For bug reports and feature requests related to the Ultralytics iSky iOS App, please use [GitHub Issues](https://github.com/ultralytics/iSky/issues). For general questions, discussions, and support, join our vibrant community on [Discord](https://discord.com/invite/ultralytics)!
 
 <br>
 <div align="center">
