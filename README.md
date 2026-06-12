@@ -85,7 +85,7 @@ The Ultralytics iSky iOS App is designed for intuitive use:
 
 ## 💡 Contribute
 
-We warmly welcome contributions from the community to our open-source projects! Your support and efforts are vital for advancing the field of AI. Get involved by reviewing our [Contributing Guide](https://docs.ultralytics.com/help/contributing/), and please share your feedback through our brief [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). We appreciate every contribution, from bug reports to pull requests. A massive thank you 🙏 to all our contributors!
+We warmly welcome contributions from the community to our open-source projects! Your support and efforts are vital for advancing the field of AI. Get involved by reviewing our [Contributing Guide](https://docs.ultralytics.com/help/contributing), and please share your feedback through our brief [Survey](https://www.ultralytics.com/survey?utm_source=github&utm_medium=social&utm_campaign=Survey). We appreciate every contribution, from bug reports to pull requests. A massive thank you 🙏 to all our contributors!
 
 [![Ultralytics open-source contributors](https://raw.githubusercontent.com/ultralytics/assets/main/im/image-contributors.png)](https://github.com/ultralytics/iSky/graphs/contributors)
 
@@ -93,7 +93,7 @@ We warmly welcome contributions from the community to our open-source projects! 
 
 Ultralytics provides two licensing options to accommodate diverse use cases:
 
-- **AGPL-3.0 License:** This [OSI-approved](https://opensource.org/license/agpl-v3) open-source license is ideal for students, researchers, and enthusiasts who wish to share their work and contribute back to the community. It promotes open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/iSky/blob/main/LICENSE) file for detailed terms.
+- **AGPL-3.0 License:** This [OSI-approved](https://opensource.org/license/agpl-3.0) open-source license is ideal for students, researchers, and enthusiasts who wish to share their work and contribute back to the community. It promotes open collaboration and knowledge sharing. See the [LICENSE](https://github.com/ultralytics/iSky/blob/main/LICENSE) file for detailed terms.
 - **Enterprise License:** Tailored for commercial applications, this license allows for the integration of Ultralytics software and AI models into commercial products and services without the open-source requirements of AGPL-3.0. If your scenario involves commercial use, please contact us through [Ultralytics Licensing](https://www.ultralytics.com/license).
 
 ## 🤝 Contact
