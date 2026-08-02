@@ -31,5 +31,5 @@ After opening a PR:
 ## Architecture
 
 - `Source/Model.swift` enumerates the five styles and maps each to its generated Core ML class; `Source/ModelExecutor.swift` wraps the model in a `VNCoreMLRequest` and runs it on a dedicated dispatch queue.
-- `Source/CameraViewController1.swift` and `Source/CameraViewController2.swift` own the `AVCaptureSession` and drive the two storyboard scenes in `Resources/`; `Source/Model2.swift` and `Resources/SecondViewController.swift` back the second view.
+- `Source/CameraViewController1.swift` owns the `AVCaptureSession` and drives the storyboard scene in `Resources/`. `Source/CameraViewController2.swift`, `Source/Model2.swift`, and `Resources/SecondViewController.swift` are not in the Xcode target and never build, so the live camera path is `CameraViewController1.swift` alone.
 - The five `.mlmodel` files the Xcode project references are gitignored and are not distributed with this repository, so a fresh clone needs them added before it will build.
