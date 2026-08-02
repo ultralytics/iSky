@@ -7,7 +7,7 @@ name: Ultralytics Actions
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
   pull_request:
     branches: [main]
     types: [opened, closed, synchronize, review_requested]
@@ -19,15 +19,15 @@ permissions:
 
 jobs:
   actions:
-    runs-on: ubuntu-latest
+    runs-on: macos-latest # Swift formatting requires macOS
     steps:
       - name: Run Ultralytics Actions
         uses: ultralytics/actions@main
         with:
           token: ${{ secrets._GITHUB_TOKEN || secrets.GITHUB_TOKEN }} # Auto-generated token
           labels: true # Auto-label issues/PRs using AI
-          python: true # Format Python with Ruff and docformatter
           prettier: true # Format YAML, JSON, Markdown, CSS
+          swift: true # Format Swift (requires a macOS runner)
           spelling: true # Check spelling with codespell
           links: false # Check broken links with Lychee
           summary: true # Generate AI-powered PR summaries

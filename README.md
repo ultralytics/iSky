@@ -43,6 +43,7 @@ Ensure you have the following before you start:
 - **Xcode:** The Ultralytics iSky iOS App requires Xcode installed on your macOS machine. Download the latest version from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835).
 - **An iOS Device:** For testing the app, you'll need an iPhone or iPad running iOS 12.0 or later, matching the app target's deployment setting.
 - **An Apple Developer Account:** A free [Apple Developer account](https://developer.apple.com/) is sufficient for testing the app on your own device.
+- **Core ML Style Models:** The five style-transfer models the Xcode project expects (`candy.mlmodel`, `mosaic.mlmodel`, `rain_princess.mlmodel`, `starrynight.mlmodel`, and `udnie.mlmodel`) are not distributed with this repository. Add them to the project before building.
 
 ### Installation
 
