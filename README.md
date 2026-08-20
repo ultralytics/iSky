@@ -1,13 +1,13 @@
-<a href="https://www.ultralytics.com/"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
+<a href="https://www.ultralytics.com"><img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg" width="320" alt="Ultralytics logo"></a>
 
 # 🚀 Ultralytics iSky iOS App
 
 [![Ultralytics Actions](https://github.com/ultralytics/iSky/actions/workflows/format.yml/badge.svg)](https://github.com/ultralytics/iSky/actions/workflows/format.yml)
 [![Ultralytics Discord](https://img.shields.io/discord/1089800235347353640?logo=discord&logoColor=white&label=Discord&color=blue)](https://discord.com/invite/ultralytics)
-[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com/)
-[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://reddit.com/r/ultralytics)
+[![Ultralytics Forums](https://img.shields.io/discourse/users?server=https%3A%2F%2Fcommunity.ultralytics.com&logo=discourse&label=Forums&color=blue)](https://community.ultralytics.com)
+[![Ultralytics Reddit](https://img.shields.io/reddit/subreddit-subscribers/ultralytics?style=flat&logo=reddit&logoColor=white&label=Reddit&color=blue)](https://www.reddit.com/r/ultralytics/)
 
-Welcome to the [Ultralytics](https://www.ultralytics.com/) iSky iOS App GitHub repository! 📖 This app leverages advanced [neural network](https://www.ultralytics.com/glossary/neural-network-nn) [style-transfer](https://en.wikipedia.org/wiki/Neural_style_transfer) models to transform your world into art in real-time. Explore our guide to get started with the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1445737240) and view the world through the lens of famous paintings.
+Welcome to the [Ultralytics](https://www.ultralytics.com) iSky iOS App GitHub repository! 📖 This app leverages advanced [neural network](https://www.ultralytics.com/glossary/neural-network-nn) [style-transfer](https://en.wikipedia.org/wiki/Neural_style_transfer) models to transform your world into art in real-time. Explore our guide to get started with the [Ultralytics iSky iOS App](https://apps.apple.com/us/app/isky/id1445737240) and view the world through the lens of famous paintings.
 
 <div align="center">
   <a href="https://apps.apple.com/us/app/isky/id1445737240" target="_blank"><img width="100%" src="https://github.com/ultralytics/iSky/assets/26833433/b13640c0-bf56-4bd4-94f7-1306fddd2b6b" alt="Ultralytics iSky iOS App previews"></a>
